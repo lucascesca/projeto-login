@@ -7,6 +7,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     #login > #imagem {
@@ -21,13 +22,14 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1300px) {
+@media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 900px;
+        height: 280px;
     }
 
     #login > #imagem {
